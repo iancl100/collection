@@ -1,0 +1,113 @@
+
+@import 'https://fonts.googleapis.com/css?family=Righteous';
+html{
+    width: 100%; 
+    height:100%; 
+    display: table;
+    margin:auto;
+}
+body{
+    display: table;
+    width: 100%;
+    margin:0;
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    background:url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+nav{
+    margin:0;
+    padding:0;
+    background:white;
+}
+nav ul{
+    display: table;
+    list-style-type: none;
+    float:right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin:auto;
+}
+li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding:14px;
+    margin:0;
+    text-decoration: none;
+    cursor: pointer;
+}
+section{
+    background: rgba(242, 131, 85,0.76);
+    clear: both;
+    vertical-align: middle;
+    text-align: center;
+    margin:auto;
+    margin-bottom:20px;
+    /*margin-top:13em;*/
+    max-width: 400px;
+    border:none;
+    box-shadow:inset 0px 1px 7px rgba(217,117,76,0.76), 0px 1px 15px black;
+    padding:15px;
+    /*padding-right:15px;*/
+}
+table{
+    margin:auto;
+}
+table th,td{
+    border:2px solid black;
+}
+h1{
+    font-family: 'Righteous', cursive;
+    font-size: 20pt;
+}
+.btnX{
+    border:1px solid rgba(255,0,0,0.75);
+    border-radius: 30px;
+    background:rgba(255,0,0,0.75);
+    color:white;
+    box-shadow: 0px 1px 7px black;
+    cursor: pointer;
+    margin:5px;
+}
+.btnX:hover{
+    background: rgba(255,50,50,0.75);
+    border:1px solid rgba(255,50,50,075);
+}
+.btn{ 
+    background: rgba(241, 233, 194, 0.69);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px;
+    margin:5px;
+    font-size: 13px;
+    color: black;
+    box-shadow: 0px 1px 15px black;
+    font-family: 'Righteous', cursive;
+}
+.btn:hover{
+    background: rgba(241, 233, 194, 1);
+}
+.btnLogout{ 
+    background: rgba(255, 102, 102, 0.7);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px;
+    margin:5px;
+    font-size: 13px;
+    color: black;
+    box-shadow: 0px 1px 15px black;
+    font-family: 'Righteous', cursive;
+}
+.btnLogout:hover{
+    background: rgba(255, 102, 102, 1);
+}

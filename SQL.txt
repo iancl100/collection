@@ -1,0 +1,20 @@
+create table account(
+    id_account bigint not null primary key generated always as identity(start with 1, increment by 1),
+    username varchar(30) not null,
+    password varchar(30) not null,
+    adm boolean not null
+);
+create table obra(
+    id_obra bigint not null primary key generated always as identity(start with 1, increment by 1),
+    nome varchar(50) not null,
+    descricao varchar(50) not null
+);
+create table account_obra(
+    id_account_obra bigint not null primary key generated always as identity(start with 1, increment by 1),
+    id_account bigint not null,
+    id_obra bigint not null,
+    id_accountEmp bigint not null
+);
+alter table account_obra add foreign key (id_account) references account(id_account) on delete cascade;
+alter table account_obra add foreign key (id_obra) references obra(id_obra) on delete cascade;
+alter table account_obra add foreign key (id_accountEmp) references account(id_account) on delete cascade;

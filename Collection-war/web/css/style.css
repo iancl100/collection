@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css?family=Righteous';
+html{
+    width: 100%; 
+    height:100%; 
+    overflow:hidden;
+    display: table;
+    margin:auto;
+}
+body{
+    margin:0;
+    padding:0;
+    display:table-cell;
+    vertical-align: middle;
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    background:url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+input{
+    width: 70%; 
+    margin-bottom: 10px; 
+    background: rgba(0,0,0,0.8);
+    border: none;
+    outline: none;
+    cursor:pointer;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    box-shadow: 0px 1px 15px black;
+
+}
+input:focus{
+    background: rgba(50,50,50,0.8);
+}
+
+section{
+    background: rgba(242, 131, 85,0.76);
+    text-align: center;
+    /*margin-left:42%;*/
+    margin:auto;
+    /*margin-top:16em;*/
+    max-width: 300px;
+    border:none;
+    box-shadow:inset 0px 1px 7px rgba(217,117,76,0.76), 0px 1px 15px black;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+article{
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    font-size: 16pt;
+}
+form{
+    display: inline-block;
+}
+.btn{
+    width: 40%; 
+    margin-bottom: 10px; 
+    background: rgba(241, 233, 194, 0.69);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 13px;
+    color: black;
+    box-shadow: 0px 1px 15px black;
+    font-family: 'Righteous', cursive;
+}
+.btn:hover{
+    background: rgba(241, 233, 194, 1);
+}
+
